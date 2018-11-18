@@ -28,7 +28,7 @@ https://www.meteor.com/install
 Install **Apache Tomcat**:
 https://tomcat.apache.org
 
-Install **Eclipse IDE for Java EE Developers**: (or any other IDE capable of creating a Dynamic web Service, although in this study case Ecplise is the one being used)
+Install **Eclipse IDE for Java EE Developers**: (or any other IDE capable of creating a Dynamic web Service, although in this study case Eclipse is the one being used)
 http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2
 
 Add **axis2-1.7.7** Runtime location to Ecplise:
