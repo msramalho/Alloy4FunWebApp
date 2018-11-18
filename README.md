@@ -21,15 +21,7 @@ modern web and mobile applications.
     - Download [Axis2 Binary Distribution](https://axis.apache.org/axis2/java/core/download.html) and save it to a convenient folder
     - In eclipse: Window > Preferences > WebServices > Axis2 Preferences > [add axis2 folder location]
 
-Download these jar files:
-- [alloy4.2.jar](http://alloy.lcs.mit.edu/alloy/download.html)
-- [axis2-jaxws-1.7.7.jar](https://mvnrepository.com/artifact/org.apache.axis2/axis2-jaxws/1.7.7)
-- [javax.jws-3.1.2.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxjws312jar.htm)
-- [javax.ws.rs-api-2.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxwsrsapi20jar.htm)
-- [jaxws-rt.jar](http://www.java2s.com/Code/Jar/j/Downloadjaxwsrtjar.htm)
-- [jaxws-tools.jar](http://www.java2s.com/Code/Jar/j/Downloadjaxwstoolsjar.htm)
-- [jstl-1.2.jar](https://mvnrepository.com/artifact/javax.servlet/jstl/1.2)
-- [xmlschema-core-2.2.1.jar](https://mvnrepository.com/artifact/org.apache.ws.xmlschema/xmlschema-core/2.2.1)
+
 
 ## Running web application
 Installing **meteor.js** is pretty straight forward, just follow the steps in [their website](https://www.meteor.com/install).
@@ -56,9 +48,15 @@ Installing **meteor.js** is pretty straight forward, just follow the steps in [t
 	- Create a new Package named **services** (Right Click > New > Package)
 	- Drag here the two java files in the [Alloy4FunWebService/src/services](Alloy4FunWebService/Alloy4FunWebService/src/services) folder
 
-- Drag all the jar files mentioned above to this folder:
-	- Alloy4Fun>WebContent>WEB-INF>lib
-
+- Download these jar files and add them to `Alloy4Fun/WebContent/WEB-INF/lib`:
+	- [alloy4.2.jar](http://alloy.lcs.mit.edu/alloy/download.html)
+	- [axis2-jaxws-1.7.7.jar](https://mvnrepository.com/artifact/org.apache.axis2/axis2-jaxws/1.7.7)
+	- [javax.jws-3.1.2.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxjws312jar.htm)
+	- [javax.ws.rs-api-2.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxwsrsapi20jar.htm)
+	- [jaxws-rt.jar](http://www.java2s.com/Code/Jar/j/Downloadjaxwsrtjar.htm)
+	- [jaxws-tools.jar](http://www.java2s.com/Code/Jar/j/Downloadjaxwstoolsjar.htm)
+	- [jstl-1.2.jar](https://mvnrepository.com/artifact/javax.servlet/jstl/1.2)
+	- [xmlschema-core-2.2.1.jar](https://mvnrepository.com/artifact/org.apache.ws.xmlschema/xmlschema-core/2.2.1)
 
 - Create server:
 	- Windows > showView > servers 
@@ -69,10 +67,10 @@ Installing **meteor.js** is pretty straight forward, just follow the steps in [t
 	- WebService runtime:  Apache axis2
 	- finish
 
-- Open Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml
-	- delete all its content and paste the one in this repository in the Alloy4FunWebService folder.
+- Open `Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml` in eclipse (text view)
+	- Replace its content with the ones in this repository in the Alloy4FunWebService folder.
 	
 - Right click at Alloy4Fun > new > other > Web Service :
-	- Service Implementation : service.AlloyService
+	- Service Implementation : services.AlloyService
 	- WebService runtime :  Apache axis2
-	- next > use existing services.xml > Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml
+	- next > use existing services.xml > `Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml`
