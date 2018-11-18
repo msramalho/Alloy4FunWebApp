@@ -18,8 +18,8 @@ modern web and mobile applications.
 2. Install **Apache Tomcat**: https://tomcat.apache.org
 3. Install **Eclipse IDE for Java EE Developers** (or any other IDE capable of creating a Dynamic web Service, although in this study case Eclipse is the one being used): http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2
 4. Add **axis2-1.7.7** Runtime location to Ecplise:
-    - Download [Axis2 Binary Distribution](https://axis.apache.org/axis2/java/core/download.html)
-    - In eclipse: Window > Preferences > WebServices > Axis2 Preferences > [add axis2 folder location, were you decided to put it]
+    - Download [Axis2 Binary Distribution](https://axis.apache.org/axis2/java/core/download.html) and save it to a convinent folder
+    - In eclipse: Window > Preferences > WebServices > Axis2 Preferences > [add axis2 folder location]
 
 Download these jar files:
 - [alloy4.2.jar](http://alloy.lcs.mit.edu/alloy/download.html)
