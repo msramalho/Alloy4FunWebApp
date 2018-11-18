@@ -1,20 +1,12 @@
 # Alloy 4 Fun
-
 Web application for Alloy.
 
-  
-
 ## About
-
-  
-
 Alloy is a language for describing structures and a tool for exploring them.
 
 Alloy4Fun is a Web platform that supports edditing and interpreting Alloy models through your browser in real time.
 
-The latest version is available at http://ec2-52-36-177-8.us-west-2.compute.amazonaws.com/.
-
-  
+The latest version is available at http://ec2-52-36-177-8.us-west-2.compute.amazonaws.com/ or http://alloy4fun.di.uminho.pt/. 
 
 Alloy4Fun is being developed using the Meteor framework which is a full-stack JavaScript platform for developing
 
@@ -48,10 +40,8 @@ Download these jar files:
 installing **meteor** is pretty straight forward, just follow the steps in their website.
 
 - in the folder  Alloy4FunMeteor just run:
-```
-
+```bash
 >meteor run
-
 ```
 ## Running the web service:
 
