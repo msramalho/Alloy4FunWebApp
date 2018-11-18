@@ -15,10 +15,10 @@ modern web and mobile applications.
 ## Prerequisites
 
 1. Install **meteor**. You cant get it here: https://www.meteor.com/install
-2. Install **Apache Tomcat**: https://tomcat.apache.org
+2. ~~Install **Apache Tomcat**: https://tomcat.apache.org~~
 3. Install **Eclipse IDE for Java EE Developers** (or any other IDE capable of creating a Dynamic web Service, although in this study case Eclipse is the one being used): http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2
 4. Add **axis2-1.7.7** Runtime location to Ecplise:
-    - Download [Axis2 Binary Distribution](https://axis.apache.org/axis2/java/core/download.html) and save it to a convinent folder
+    - Download [Axis2 Binary Distribution](https://axis.apache.org/axis2/java/core/download.html) and save it to a convenient folder
     - In eclipse: Window > Preferences > WebServices > Axis2 Preferences > [add axis2 folder location]
 
 Download these jar files:
@@ -40,12 +40,13 @@ Installing **meteor.js** is pretty straight forward, just follow the steps in [t
 ```
 ## Running the web service:
 
-  - create a Dynamic Web Project
-	  - Project name: Alloy4Fun
-	  - TargetRuntime: Apache TomCat v7.0
-	  - Dynamic Web Module : 2.5
-	  - Configuration > modify > select Axis2 Web Services
-	  - Finish
+  - create a new Dynamic Web Project in Eclipse
+  	- File > New > Dynamic Web Project
+	- Project name: Alloy4Fun
+	- TargetRuntime: Apache TomCat v7.0
+	- Dynamic Web Module : 2.5
+	- Configuration > modify > select Axis2 Web Services
+	- Finish
 
 - Alloy4Fun>JavaResources:
 	- Create a new Package named **service**
