@@ -60,13 +60,13 @@ Installing **meteor.js** is pretty straight forward, just follow the steps in [t
 	- Alloy4Fun>WebContent>WEB-INF>lib
 
 
-- Create server
+- Create server:
 	- Windows > showView > servers 
 		- new server > Tomcat V7.0 Server
 
 - Right click at Alloy4Fun > new > other > Web Service :
-	- Service Implementation : service.AlloyService
-	- WebService runtime :  Apache axis2
+	- Service Implementation: `services.AlloyService`
+	- WebService runtime:  Apache axis2
 	- finish
 
 - Open Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml
