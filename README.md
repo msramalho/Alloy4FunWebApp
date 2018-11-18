@@ -14,27 +14,22 @@ modern web and mobile applications.
 
 ## Prerequisites
 
-Install **meteor**. You cant get it here:
-https://www.meteor.com/install
-
-Install **Apache Tomcat**:
-https://tomcat.apache.org
-
-Install **Eclipse IDE for Java EE Developers**: (or any other IDE capable of creating a Dynamic web Service, although in this study case Eclipse is the one being used)
-http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2
-
-Add **axis2-1.7.7** Runtime location to Ecplise:
-	- Window > Preferences > WebServices > Axis2 Preferences > [add axis2 folder location ]
+1. Install **meteor**. You cant get it here: https://www.meteor.com/install
+2. Install **Apache Tomcat**: https://tomcat.apache.org
+3. Install **Eclipse IDE for Java EE Developers** (or any other IDE capable of creating a Dynamic web Service, although in this study case Eclipse is the one being used): http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2
+4. Add **axis2-1.7.7** Runtime location to Ecplise:
+    - Download [Axis2 Binary Distribution](https://axis.apache.org/axis2/java/core/download.html)
+    - In eclipse: Window > Preferences > WebServices > Axis2 Preferences > [add axis2 folder location, were you decided to put it]
 
 Download these jar files:
--alloy4.2.jar 
--axis2-jaxws-1.7.7.jar
--javax.jws-3.1.2.jar
--javax.ws.rs-api-2.0.jar
--jaxws-rt.jar
--jaxws-tools.jar
--jstl-1.2.jar
--xmlschema-core-2.2.1.jar
+- [alloy4.2.jar](http://alloy.lcs.mit.edu/alloy/download.html)
+- axis2-jaxws-1.7.7.jar
+- javax.jws-3.1.2.jar
+- javax.ws.rs-api-2.0.jar
+- jaxws-rt.jar
+- jaxws-tools.jar
+- jstl-1.2.jar
+- xmlschema-core-2.2.1.jar
 
 ## Running web application
 installing **meteor** is pretty straight forward, just follow the steps in their website.
