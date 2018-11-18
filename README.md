@@ -71,6 +71,6 @@ Installing **meteor.js** is pretty straight forward, just follow the steps in [t
 	- Replace its content with the ones in this repository in the Alloy4FunWebService folder.
 	
 - Right click at Alloy4Fun > new > other > Web Service :
-	- Service Implementation : services.AlloyService
+	- Service Implementation : `services.AlloyService`
 	- WebService runtime :  Apache axis2
 	- next > use existing services.xml > `Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml`
