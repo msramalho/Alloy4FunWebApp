@@ -32,7 +32,7 @@ Download these jar files:
 - xmlschema-core-2.2.1.jar
 
 ## Running web application
-installing **meteor** is pretty straight forward, just follow the steps in their website.
+Installing **meteor.js** is pretty straight forward, just follow the steps in [their website](https://www.meteor.com/install).
 
 - in the folder  Alloy4FunMeteor just run:
 ```bash
