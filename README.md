@@ -23,13 +23,13 @@ modern web and mobile applications.
 
 Download these jar files:
 - [alloy4.2.jar](http://alloy.lcs.mit.edu/alloy/download.html)
-- axis2-jaxws-1.7.7.jar
-- javax.jws-3.1.2.jar
-- javax.ws.rs-api-2.0.jar
-- jaxws-rt.jar
-- jaxws-tools.jar
-- jstl-1.2.jar
-- xmlschema-core-2.2.1.jar
+- [axis2-jaxws-1.7.7.jar](https://mvnrepository.com/artifact/org.apache.axis2/axis2-jaxws/1.7.7)
+- [javax.jws-3.1.2.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxjws312jar.htm)
+- [javax.ws.rs-api-2.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxwsrsapi20jar.htm)
+- [jaxws-rt.jar](http://www.java2s.com/Code/Jar/j/Downloadjaxwsrtjar.htm)
+- [jaxws-tools.jar](http://www.java2s.com/Code/Jar/j/Downloadjaxwstoolsjar.htm)
+- [jstl-1.2.jar](https://mvnrepository.com/artifact/javax.servlet/jstl/1.2)
+- [xmlschema-core-2.2.1.jar](https://mvnrepository.com/artifact/org.apache.ws.xmlschema/xmlschema-core/2.2.1)
 
 ## Running web application
 Installing **meteor.js** is pretty straight forward, just follow the steps in [their website](https://www.meteor.com/install).
