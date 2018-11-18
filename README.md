@@ -40,23 +40,27 @@ Installing **meteor.js** is pretty straight forward, just follow the steps in [t
 ```
 ## Running the web service:
 
-  - create a new Dynamic Web Project in Eclipse
+  - Create a new Dynamic Web Project in Eclipse
   	- File > New > Dynamic Web Project
 	- Project name: Alloy4Fun
-	- TargetRuntime: Apache TomCat v7.0
+	- Setup TargetRuntime:
+		 - New Runtime > Apache TomCat v7.0
+		 - Next
+		 - Download and Install (wait and setup folder OR [download manually](https://tomcat.apache.org/download-70.cgi) to convenient folder and Hit "Browse" instead)
+		 - Finish
 	- Dynamic Web Module : 2.5
 	- Configuration > modify > select Axis2 Web Services
 	- Finish
 
-- Alloy4Fun>JavaResources:
-	- Create a new Package named **service**
-	- Drag here the two java files in the **Alloy4FunWebService** folder
+- Eclipse Project Explorer > Alloy4Fun > JavaResources:
+	- Create a new Package named **services** (Right Click > New > Package)
+	- Drag here the two java files in the [Alloy4FunWebService/src/services](Alloy4FunWebService/Alloy4FunWebService/src/services) folder
 
 - Drag all the jar files mentioned above to this folder:
 	- Alloy4Fun>WebContent>WEB-INF>lib
 
 
-- create server
+- Create server
 	- Windows > showView > servers 
 		- new server > Tomcat V7.0 Server
 
