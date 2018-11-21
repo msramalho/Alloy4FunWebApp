@@ -26,9 +26,9 @@ modern web and mobile applications.
 ## Running web application
 Installing **meteor.js** is pretty straight forward, just follow the steps in [their website](https://www.meteor.com/install).
 
-- in the folder  Alloy4FunMeteor just run:
+To run the web app, go to the [Alloy4FunMeteor](Alloy4FunMeteor) folder and run:
 ```bash
->meteor run
+meteor run
 ```
 ## Running the web service:
 
