@@ -68,7 +68,7 @@ meteor run
 	- finish
 
 - Open `Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml` in eclipse (text view)
-	- Replace its content with the ones in this repository in the Alloy4FunWebService folder.
+	- Replace its content with the ones in this [services.xml](Alloy4FunWebService/Alloy4FunWebService/services.xml).
 	
 - Right click at Alloy4Fun > new > other > Web Service :
 	- Service Implementation : `services.AlloyService`
