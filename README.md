@@ -73,4 +73,5 @@ meteor run
 - Right click at Alloy4Fun > new > other > Web Service :
 	- Service Implementation : `services.AlloyService`
 	- WebService runtime :  Apache axis2
-	- next > use existing services.xml > `Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml`
+	- next > "use existing services.xml" > select the above in `Alloy4Fun/WebContent/WEB-INF/services/AlloyService/META-INF/services.xml`
+	- next > Start Server > finish
