@@ -54,13 +54,6 @@ Template.alloyEditor.events({
                       buttons: true,
                       dangerMode: true,
                     });
-<<<<<<< HEAD
-                }else {
-                    console.log("test");
-                    Meteor.call('getInstance', textEditor.getValue(), Meteor.default_connection._lastSessionId, 0,command, true, handleInterpretModelEvent);
-                }
-                $("#exec > button").prop('disabled', true);
-=======
                 }
                 else {       /* Execute command */
 
@@ -109,7 +102,6 @@ Template.alloyEditor.events({
                     Meteor.call('getInstance', (modelToShare/*textEditor.getValue()*/ + secrets), Meteor.default_connection._lastSessionId, 0,commandLabel, true,id, Session.get("last_id"),handleInterpretModelEvent);
                 }
                 $("#exec > button").prop('disabled', true);  /* available buttons */
->>>>>>> 9d1c38c963c7d51a48a7106c5821b5a3bd846f98
                 $("#next > button").prop('disabled', false);
           }
 
