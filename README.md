@@ -30,6 +30,13 @@ To run the web app, go to the [Alloy4FunMeteor](Alloy4FunMeteor) folder and run:
 ```bash
 meteor run
 ```
+If you encounter problems like:
+ * Failing to start MongoDB
+ * Non-compatible package versions
+ * New meteor versions available
+
+Be sure to run `meteor npm i`, `meteor update` and keep an eye for additional recommended flags until you can simply do `meteor run` and get a message for the app running on [localhost:3000](http://localhost:3000/). 
+
 ## Running the web service:
 
   - Create a new Dynamic Web Project in Eclipse
