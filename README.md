@@ -64,6 +64,7 @@ Be sure to run `meteor npm i`, `meteor update` and keep an eye for additional re
 	- [jaxws-tools.jar](http://www.java2s.com/Code/Jar/j/Downloadjaxwstoolsjar.htm)
 	- [jstl-1.2.jar](https://mvnrepository.com/artifact/javax.servlet/jstl/1.2)
 	- [xmlschema-core-2.2.1.jar](https://mvnrepository.com/artifact/org.apache.ws.xmlschema/xmlschema-core/2.2.1)
+	- [javax.json-1.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxjson10jar.htm)
 
 - Create server:
 	- Windows > showView > servers 
