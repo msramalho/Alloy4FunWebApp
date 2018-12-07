@@ -1,5 +1,5 @@
 # Alloy 4 Fun
-Web application for Alloy.
+Web application for Alloy. [Original Thesis](https://repositorium.sdum.uminho.pt/bitstream/1822/47719/1/Jos%C3%A9%20Manuel%20Costa%20Pereira.pdf)
 
 ## About
 Alloy is a language for describing structures and a tool for exploring them.
