@@ -9,6 +9,11 @@
 
 Meteor.publish('editorLoad', function (/*_id*/) {//sem parametro para se conseguir aceder
 
+    // TODO está a publicar todos os para o cliente, só deve publicar os requeridos
+    // TODO deve extrair os segredos nesta fase, i.e., os segredos não devem ficar expostos ao cliente. Há que retirar antes de enviar.
+
+    //chavetas aninhadas??????
+
     var selector = {
         //_id: _id
     };

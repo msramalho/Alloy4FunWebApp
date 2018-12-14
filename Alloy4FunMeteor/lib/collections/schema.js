@@ -4,6 +4,7 @@
 
 var Schema = {};
 
+// whole tem tudo, derivation de onde deriva
 //Models created through the editor feature.
 Schema.Model = new SimpleSchema({
     _id: {
@@ -24,6 +25,7 @@ Schema.Model = new SimpleSchema({
     }
 });
 
+// ao executar um comando, guarda o modelo a que pertencia o comando, sat ou não, o próprio comando, e o resultado
 Schema.Run = new SimpleSchema({
     _id: {
         type: String,
@@ -48,6 +50,7 @@ Schema.Run = new SimpleSchema({
     }
 });
 
+// theme é suposto ser o theme...
 Schema.Theme = new SimpleSchema({
     _id: {
         type: String,
@@ -168,6 +171,8 @@ Schema.Theme = new SimpleSchema({
 
 //TODO colocar aqui esquema correto, model_id não está a ser utilizado
 /*
+
+// uma instância foi originada a partir de um comanod que tem ref para o modelo.
 Schema.Instance = new SimpleSchema({
     _id: {
         type: String,
@@ -181,12 +186,12 @@ Schema.Instance = new SimpleSchema({
         type: String,
         optional : false
     },
-    graph : {
+    graph : { // the whole graph
         type : Object,
         optional : false,
-        blackbox: true
+        blackbox: true 
     },
-    theme : {
+    theme : { // o tema associado à instância
         type : Object,
         optional : false,
         blackbox: true
@@ -212,6 +217,7 @@ Schema.Link = new SimpleSchema({
         optional : false
     }
 });
+// os links para as instancias estão armazenadas noutra tabela. Estão na tabela das instâncias.
 
 Model.attachSchema(Schema.Model);
 Run.attachSchema(Schema.Run);
