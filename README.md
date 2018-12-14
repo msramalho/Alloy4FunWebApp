@@ -67,7 +67,7 @@ Be sure to run `meteor npm i`, `meteor update` and keep an eye for additional re
 	- [javax.json-1.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaxjson10jar.htm)
 
 - Create server:
-	- Windows > showView > servers 
+	- Window > showView > servers 
 		- new server > Tomcat V7.0 Server
 
 - Right click at Alloy4Fun > new > other > Web Service :
