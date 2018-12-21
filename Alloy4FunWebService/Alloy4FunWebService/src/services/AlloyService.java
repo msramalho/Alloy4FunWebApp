@@ -57,7 +57,7 @@ public class AlloyService {
 			String filename = null;
 			File file = null;
 			try {
-				file = new File(System.getProperty("java.io.tmpdir") + sessionId + ".als");
+				file = new File(System.getProperty("java.io.tmpdir"), sessionId + ".als");
 				file.createNewFile();
 				FileWriter fw = new FileWriter(file);
 				BufferedWriter bw = new BufferedWriter(fw);
